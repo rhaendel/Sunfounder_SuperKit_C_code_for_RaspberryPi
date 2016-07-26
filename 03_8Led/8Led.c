@@ -33,12 +33,12 @@ int main(void)
 	while(1){
 		for(i=0;i<8;i++){   //make led on from left to right
 			led_on(i);
-			delay(100);
+			delay(50);
 			led_off(i);
 		}
 		for(i=7;i>=0;i--){  //make led off from right to left
 			led_on(i);
-			delay(100);
+			delay(50);
 			led_off(i);
 		}
 	}
